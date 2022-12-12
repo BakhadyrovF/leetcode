@@ -12,6 +12,9 @@ $target = 4;
  * target's index would be $middle + 1 because on the left side all values are less than target.
  * Also, we can be sure that if our target is less than middle value of array, target's index is would be $middle
  * because on the right side all values are greater than target and $nums[$middle] can be moved to $middle + 1.
+ *
+ * Time complexity - O(log n)
+ * Space complexity O(1)
  */
 function searchInsert($nums, $target): int
 {

@@ -1,5 +1,5 @@
-# Leetcode
-**Leetcode problems with solutions**
+# LeetCode
+**LeetCode problems with solutions**
 
 | # | Problem | Solution | Difficulty |
 |---| ----- | -------- | ---------- |

@@ -14,7 +14,7 @@ $target = 4;
  * because on the right side all values are greater than target and $nums[$middle] can be moved to $middle + 1.
  *
  * Time complexity - O(log n)
- * Space complexity O(1)
+ * Space complexity - O(1)
  */
 function searchInsert($nums, $target): int
 {

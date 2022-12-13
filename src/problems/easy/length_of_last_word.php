@@ -3,7 +3,7 @@
 
 
 /**
- * Length Of Last Word
+ * Length of Last Word
  * @link https://leetcode.com/problems/length-of-last-word
  *
  * Approach - start iterating through each element from the end of string,

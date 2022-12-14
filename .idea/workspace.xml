@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/easy/length_of_last_word.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/easy/length_of_last_word.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.plus_one.php">
+  <component name="RunManager" selected="PHP Script.merge_sorted_array.php">
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -55,7 +57,15 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="plus_one.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/plus_one.php">
+    <configuration name="merge_sorted_array.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="plus_one.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -93,6 +103,8 @@
       <workItem from="1670983888355" duration="713000" />
       <workItem from="1671001257417" duration="610000" />
       <workItem from="1671022750857" duration="10000" />
+      <workItem from="1671034784984" duration="3350000" />
+      <workItem from="1671040048838" duration="1062000" />
     </task>
     <servers />
   </component>

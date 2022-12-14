@@ -12,14 +12,56 @@ $n = 3;
  *
  * Note: $nums1 array contain zeros that should be ignored,
  * zeros added for not being worried about memory that array take - $nums1 has exact length of result (merged arrays)
+ */
+
+
+/**
+ * Approach:
+ * Initialize two pointers for two arrays,
+ * start iterating from the end of arrays,
+ * iterate until both pointers are less than 0,
+ * check which array value is higher and push value to result array starting from the end.
  *
- * Approach - initialize two pointers, iterate through arrays until both pointer are equal to the number of elements.
- * Check if $firstPointer is greater than $m ($nums1 length) take false, because we should ignore all zeros that start at index $m.
- * Rest is simple: check if $firstElement exists and less than $secondItem - push $firstItem to $result array
- * and increment $firstPointer, else do the same thing for $secondItem.
- *
+ * Time complexity - O(n)
+ * Space complexity - O(1)
  */
 function merge(&$nums1, $m, $nums2, $n)
+{
+    if ($m === 0) {$nums1 = $nums2; return;}
+    if ($n === 0) {return;}
+
+    $firstPointer = $m - 1;
+    $secondPointer = $n - 1;
+    $countdown = count($nums1) - 1;
+
+    while ($firstPointer >= 0 || $secondPointer >= 0) {
+        $firstItem = $nums1[$firstPointer] ?? null;
+        $secondItem = $nums2[$secondPointer] ?? null;
+
+        if ($secondItem === null || $firstItem !== null && $firstItem > $secondItem) {
+            $nums1[$countdown--] = $firstItem;
+            $firstPointer--;
+        } else {
+            $nums1[$countdown--] = $secondItem;
+            $secondPointer--;
+        }
+    }
+}
+
+
+/**
+ *
+ * Approach:
+ * Initialize two pointers for two arrays,
+ * start iterating from the beginning of arrays,
+ * iterate through until both pointers are equal to length of arrays,
+ * check which array value is less and push this value to result array starting from the beginning
+ * copy result to $nums1.
+ *
+ * Time complexity - O(n)
+ * Space complexity - O(n)
+ */
+function mergeAnotherApproach(&$nums1, $m, $nums2, $n)
 {
     if ($m === 0) {
         $nums1 = $nums2;
@@ -47,5 +89,3 @@ function merge(&$nums1, $m, $nums2, $n)
 
     $nums1 = $result;
 }
-
-merge($nums1, $m, $nums2, $n); // [1, 2, 2, 3, 5, 6]

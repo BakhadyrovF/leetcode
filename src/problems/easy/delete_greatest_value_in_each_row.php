@@ -23,7 +23,7 @@ $grid = [
  * Time Complexity - O(m * n^2) - but it is faster than it seems.
  * Runtime - 27-40ms
  * Beats: 50-99%
- * Space complexity - O(n)
+ * Space complexity - O(m * n)
  */
 function deleteGreatestValue($grid)
 {

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/easy/valid_parentheses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.delete_greatest_value_in_each_row.php">
+  <component name="RunManager">
     <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/medium/add_two_numbers.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -78,6 +81,14 @@
       <method v="2" />
     </configuration>
     <configuration name="plus_one.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="valid_parentheses.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/valid_parentheses.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -122,6 +133,8 @@
       <workItem from="1671092096742" duration="6000" />
       <workItem from="1671122556703" duration="1604000" />
       <workItem from="1671167585126" duration="6023000" />
+      <workItem from="1671173874270" duration="59000" />
+      <workItem from="1671447313428" duration="3174000" />
     </task>
     <servers />
   </component>

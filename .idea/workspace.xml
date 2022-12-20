@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/easy/valid_parentheses.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.add_two_numbers.php">
     <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/medium/add_two_numbers.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -134,7 +133,9 @@
       <workItem from="1671122556703" duration="1604000" />
       <workItem from="1671167585126" duration="6023000" />
       <workItem from="1671173874270" duration="59000" />
-      <workItem from="1671447313428" duration="3174000" />
+      <workItem from="1671447313428" duration="3527000" />
+      <workItem from="1671454884261" duration="9000" />
+      <workItem from="1671517316298" duration="5000" />
     </task>
     <servers />
   </component>

@@ -45,7 +45,7 @@
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.add_two_numbers.php">
-    <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/medium/add_two_numbers.php">
+    <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/add_two_numbers.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -53,7 +53,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="delete_greatest_value_in_each_row.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/delete_greatest_value_in_each_row.php">
+    <configuration name="delete_greatest_value_in_each_row.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/delete_greatest_value_in_each_row.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -69,7 +69,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="merge_sorted_array.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php">
+    <configuration name="merge_sorted_array.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/merge_sorted_array.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -77,7 +77,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="plus_one.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/merge_sorted_array.php">
+    <configuration name="plus_one.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/merge_sorted_array.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -85,7 +85,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="valid_parentheses.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/easy/valid_parentheses.php">
+    <configuration name="valid_parentheses.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/valid_parentheses.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />

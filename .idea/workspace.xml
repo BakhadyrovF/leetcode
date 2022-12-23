@@ -13,6 +13,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -136,6 +143,7 @@
       <workItem from="1671517316298" duration="5000" />
       <workItem from="1671527054549" duration="302000" />
       <workItem from="1671542780983" duration="12000" />
+      <workItem from="1671778246027" duration="330000" />
     </task>
     <servers />
   </component>

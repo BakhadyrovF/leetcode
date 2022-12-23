@@ -50,6 +50,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/problems/php" />
+      <recent name="$PROJECT_DIR$/src/problems" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.add_two_numbers.php">
     <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/add_two_numbers.php">

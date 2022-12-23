@@ -24,6 +24,7 @@ const merge = function(nums1, m, nums2, n) {
         for (i = 0; i < n; i++) {
             nums1[i] = nums2[i];
         }
+        return;
     }
     if (n === 0) {return;}
 

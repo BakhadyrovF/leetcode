@@ -12,7 +12,7 @@
  * 4. Do steps above while $positiveInt is greater than 0
  *
  * Time complexity - O(n)
- * Space complexity - O(n);
+ * Space complexity - O(n)
  */
 function reverse($x) {
 

@@ -201,12 +201,3 @@ class MyLinkedList {
         }
     }
 }
-
-$myLinkedList = new MyLinkedList();
-$myLinkedList->addAtHead(7);
-$myLinkedList->addAtHead(2);
-$myLinkedList->addAtHead(1);
-//$myLinkedList->addAtIndex(3, 0);
-
-//print_r($myLinkedList);
-$myLinkedList->printList();

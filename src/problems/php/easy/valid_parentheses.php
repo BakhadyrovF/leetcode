@@ -1,7 +1,16 @@
 <?php
 
 /**
- * Needs description!
+ * Valid Parentheses
+ * link - https://leetcode.com/problems/valid-parentheses
+ *
+ * Approach:
+ * Iterate through each parenthesis and if it is opening parenthesis, then push it to our stack
+ * Else (closing parenthesis), then take top from our stack (LILO) and if stack's top is not our pair, return false
+ * If it is our pair - remove it from stack and continue iterating
+ *
+ * Time complexity - O(n)
+ * Space complexity - O(n)
  */
 function isValid($s) {
     $parentheses = [ "(" => ")", "[" => "]", "{" => "}", ];

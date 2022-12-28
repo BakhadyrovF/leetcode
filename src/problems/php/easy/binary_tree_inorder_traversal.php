@@ -1,20 +1,18 @@
 <?php
 
-
-
-
-
-class TreeNode {
-    public $val = null;
-    public $left = null;
-    public $right = null;
-    function __construct($val = 0, $left = null, $right = null) {
-        $this->val = $val;
-        $this->left = $left;
-        $this->right = $right;
-    }
-}
-
+/**
+ * Binary Tree Inorder Traversal
+ * @link https://leetcode.com/problems/binary-tree-inorder-traversal
+ *
+ * Approach:
+ * Imagine each node of tree as a subtree and run these steps recursively for each subtree (node).
+ * 1. Collect value on the left side
+ * 2. Collect root node
+ * 3. Collect value on the right side
+ *
+ * Time complexity - O(n)
+ * Space complexity - O(n)
+ */
 class Solution {
 
     public function inorderTraversal($root)
@@ -48,3 +46,4 @@ class Solution {
     }
 
 }
+

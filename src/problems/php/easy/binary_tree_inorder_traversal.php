@@ -5,10 +5,10 @@
  * @link https://leetcode.com/problems/binary-tree-inorder-traversal
  *
  * Approach:
- * Imagine each node of tree as a subtree and run these steps recursively for each subtree (node).
- * 1. Collect value on the left side
- * 2. Collect root node
- * 3. Collect value on the right side
+ * Think of each node of tree as a subtree and run these steps recursively for each subtree (node).
+ * 1. Collect value at left node
+ * 2. Collect value at root node
+ * 3. Collect value at right node
  *
  * Time complexity - O(n)
  * Space complexity - O(n)

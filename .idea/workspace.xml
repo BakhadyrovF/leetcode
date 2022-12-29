@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/easy/binary_tree_preorder_traversal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +164,7 @@
       <workItem from="1672130138350" duration="4000" />
       <workItem from="1672231968846" duration="2317000" />
       <workItem from="1672294524359" duration="334000" />
-      <workItem from="1672297688116" duration="317000" />
+      <workItem from="1672297688116" duration="1056000" />
     </task>
     <servers />
   </component>

@@ -30,10 +30,6 @@ class Solution {
 
     protected function inOrder($node, &$result)
     {
-        if ($node === null) {
-            return null;
-        }
-
         if ($node->left !== null) {
             $this->inOrder($node->left, $result);
         }

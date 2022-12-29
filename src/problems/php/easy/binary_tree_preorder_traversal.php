@@ -28,16 +28,14 @@ class Solution {
         return $result;
     }
 
-    protected function preorder($node, &$result = [])
+    protected function preorder($node, &$result)
     {
+        if ($node === null) {
+            return null;
+        }
+
         $result[] = $node->val;
-
-        if ($node->left !== null) {
-            $this->preorder($node->left, $result);
-        }
-
-        if ($node->right !== null) {
-            $this->preorder($node->right, $result);
-        }
+        $this->preorder($node->left, $result);
+        $this->preorder($node->right, $result);
     }
 }

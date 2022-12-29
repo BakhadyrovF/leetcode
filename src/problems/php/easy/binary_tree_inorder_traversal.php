@@ -30,16 +30,13 @@ class Solution {
 
     protected function inOrder($node, &$result)
     {
-        if ($node->left !== null) {
-            $this->inOrder($node->left, $result);
+        if ($node === null) {
+            return null;
         }
 
+        $this->inOrder($node->left, $result);
         $result[] = $node->val;
-
-        if ($node->right !== null) {
-            $this->inOrder($node->right, $result);
-        }
+        $this->inOrder($node->right, $result);
     }
-
 }
 

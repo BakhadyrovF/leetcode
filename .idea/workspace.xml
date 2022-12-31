@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/easy/binary_tree_postorder_traversal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/php/easy/binary_tree_preorder_traversal.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/easy/binary_tree_preorder_traversal.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +166,8 @@
       <workItem from="1672130138350" duration="4000" />
       <workItem from="1672231968846" duration="2317000" />
       <workItem from="1672294524359" duration="334000" />
-      <workItem from="1672297688116" duration="2117000" />
+      <workItem from="1672297688116" duration="2696000" />
+      <workItem from="1672314500963" duration="4000" />
     </task>
     <servers />
   </component>

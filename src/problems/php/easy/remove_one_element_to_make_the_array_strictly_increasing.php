@@ -1,12 +1,18 @@
 <?php
 
 
+/**
+ * Remove One Element To Make The Array Strictly Increasing
+ * @link  https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing
+ *
+ * Approach:
+ * Find removable element and if it is previous element, then take pre-previous value and assign it to previous.
+ * Otherwise, just increment current, these operations needed because we have to skip removable element instead of deleting it physically.
+ *
+ * Time Complexity - O(n)
+ * Space Complexity - O(1)
+ */
 class Solution {
-
-    /**
-     * @param Integer[] $nums
-     * @return Boolean
-     */
     function canBeIncreasing($nums) {
         $isRemoved = false;
 

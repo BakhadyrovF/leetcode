@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/php/easy/remove_one_element_to_make_the_array_strictly.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/easy/remove_one_element_to_make_the_array_strictly_increasing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,7 @@
       <workItem from="1673851683164" duration="5147000" />
       <workItem from="1673876988724" duration="1786000" />
       <workItem from="1673925263613" duration="838000" />
-      <workItem from="1673938512837" duration="6280000" />
+      <workItem from="1673938512837" duration="6750000" />
     </task>
     <servers />
   </component>

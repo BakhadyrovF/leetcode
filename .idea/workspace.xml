@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.add_two_numbers.php">
+  <component name="RunManager">
     <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/add_two_numbers.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -175,6 +175,10 @@
       <workItem from="1673768093718" duration="61000" />
       <workItem from="1673789616067" duration="3519000" />
       <workItem from="1673804769258" duration="4000" />
+      <workItem from="1673851683164" duration="5147000" />
+      <workItem from="1673876988724" duration="1786000" />
+      <workItem from="1673925263613" duration="838000" />
+      <workItem from="1673938512837" duration="4015000" />
     </task>
     <servers />
   </component>

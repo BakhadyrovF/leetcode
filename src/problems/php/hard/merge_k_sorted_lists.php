@@ -1,7 +1,20 @@
 <?php
 
 
-
+/**
+ * Merge K Sorted Lists
+ * @link https://leetcode.com/problems/merge-k-sorted-lists
+ *
+ * Approach:
+ * Take all nodes of all Lists and push them to the Array
+ * Heapify Array so, it will be MinHeap
+ * Extract min value from the MinHeap until Heap is not empty
+ *
+ * n = total number of nodes of all lists
+ * Time Complexity - O(n log n)
+ * Space Complexity - O(n)
+ *
+ */
 class Solution {
 
     private array $heap = [];
@@ -16,6 +29,7 @@ class Solution {
             return [];
         }
 
+        // O(n * m)
         for ($i = 0; $i < count($lists); $i++) {
             $node = $lists[$i];
 
@@ -25,8 +39,10 @@ class Solution {
             }
         }
 
+        // O(m)
         $this->heapify();
 
+        // O(m log m)
         $head = $this->extractMin();
         $node = $head;
         while ($node) {
@@ -82,19 +98,3 @@ class Solution {
         return $min;
     }
 }
-
-class ListNode {
-    public $val = 0;
-    public $next = null;
-    function __construct($val = 0, $next = null)
-    {
-         $this->val = $val;
-         $this->next = $next;
-    }
-}
-
-$solution = new Solution();
-$listNode = new ListNode(1, new ListNode(2, new ListNode(2)));
-$listNode2 = new ListNode(1, new ListNode(1, new ListNode(2)));
-
-print_r($solution->mergeKLists([$listNode, $listNode2]));

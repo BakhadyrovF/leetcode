@@ -10,26 +10,20 @@
  * Heapify Array so, it will be MinHeap
  * Extract min value from the MinHeap until Heap is not empty
  *
- * n = total number of nodes of all lists
- * Time Complexity - O(n log n)
- * Space Complexity - O(n)
- *
+ * n = number of linked lists
+ * m = number of nodes in i-th linked list
+ * Time Complexity - O(m * n log n)
+ * Space Complexity - O(m * n)
  */
 class Solution {
 
     private array $heap = [];
-
-    /**
-     * @param ListNode[] $lists
-     * @return ListNode
-     */
     public function mergeKLists($lists)
     {
         if (empty($lists)) {
             return [];
         }
 
-        // O(n * m)
         for ($i = 0; $i < count($lists); $i++) {
             $node = $lists[$i];
 
@@ -39,10 +33,8 @@ class Solution {
             }
         }
 
-        // O(m)
         $this->heapify();
 
-        // O(m log m)
         $head = $this->extractMin();
         $node = $head;
         while ($node) {

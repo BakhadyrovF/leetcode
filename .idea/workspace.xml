@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/problems/php/hard/merge_k_sorted_lists.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/hard/merge_k_sorted_lists.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/php/medium/rotate_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/medium/rotate_array.php" afterDir="false" />
-    </list>
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +178,7 @@
       <workItem from="1673925263613" duration="838000" />
       <workItem from="1673938512837" duration="7173000" />
       <workItem from="1673961405847" duration="7372000" />
-      <workItem from="1674027156864" duration="1456000" />
+      <workItem from="1674027156864" duration="1565000" />
     </task>
     <servers />
   </component>

@@ -10,8 +10,8 @@
  * Heapify Array so, it will be MinHeap
  * Extract min value from the MinHeap until Heap is not empty
  *
- * n = number of linked lists
- * m = number of nodes in i-th linked list
+ * m = number of linked lists
+ * n = number of nodes in i-th linked list
  * Time Complexity - O(m * n log n)
  * Space Complexity - O(m * n)
  */

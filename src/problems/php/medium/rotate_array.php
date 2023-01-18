@@ -9,7 +9,7 @@
  * Divide by modulo $k to the length of array (Thus we are excluding unnecessary rotations: $k(10) % $length(3) = 1)
  * Calculate index of first element to be rotated by ($length - $k)
  * Push all elements to be rotated into a new empty array
- * Add the rest and assign new array to the our input
+ * Add the rest and assign new array to the input
  * 
  * Time complexity - O(n)
  * Beats: 70-95%

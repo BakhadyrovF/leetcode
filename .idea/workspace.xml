@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -180,7 +187,8 @@
       <workItem from="1673961405847" duration="7372000" />
       <workItem from="1674027156864" duration="1565000" />
       <workItem from="1674044766223" duration="771000" />
-      <workItem from="1674116210001" duration="2560000" />
+      <workItem from="1674116210001" duration="3283000" />
+      <workItem from="1674122218421" duration="2290000" />
     </task>
     <servers />
   </component>

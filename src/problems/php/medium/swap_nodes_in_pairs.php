@@ -1,5 +1,5 @@
 <?php
-
+//
 class Solution {
     public function swapPairs($head) {
         if (!$head || !$head->next) {

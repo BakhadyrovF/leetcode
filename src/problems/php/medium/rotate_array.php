@@ -22,6 +22,7 @@ function rotate(&$nums, $k)
 	$length = count($nums);
 	$k = $k % $length; 
 	$startIndex = $length - $k; // Index of first element that should be rotated
+    $rotatedElements = [];
 
 	for ($i = $startIndex; $i < $length; $i++) {
 		$rotatedElements[] = $nums[$i];

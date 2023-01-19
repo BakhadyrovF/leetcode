@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/js/easy/bestTimeToBuyAndSellStock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/js/easy/bestTimeToBuyAndSellStock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/php/medium/find_first_and_last_position_of_element_in_sorted_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/medium/find_first_and_last_position_of_element_in_sorted_array.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +190,7 @@
       <workItem from="1674027156864" duration="1565000" />
       <workItem from="1674044766223" duration="771000" />
       <workItem from="1674116210001" duration="3283000" />
-      <workItem from="1674122218421" duration="2290000" />
+      <workItem from="1674122218421" duration="4672000" />
     </task>
     <servers />
   </component>

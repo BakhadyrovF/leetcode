@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/problems/php/medium/swap_nodes_in_pairs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/medium/swap_nodes_in_pairs.php" afterDir="false" />
-    </list>
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +180,7 @@
       <workItem from="1673961405847" duration="7372000" />
       <workItem from="1674027156864" duration="1565000" />
       <workItem from="1674044766223" duration="771000" />
-      <workItem from="1674116210001" duration="1925000" />
+      <workItem from="1674116210001" duration="2256000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/easy/min_cost_climbing_stairs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/bakhadyrovf/development/php/test_assignments/task_on",
+    "last_opened_file_path": "/home/bakhadyrovf/development/php/job/korzinka/korzinka_catalog/www",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -196,7 +195,8 @@
       <workItem from="1674136061786" duration="9000" />
       <workItem from="1674294058472" duration="8759000" />
       <workItem from="1674387672034" duration="31000" />
-      <workItem from="1674387707026" duration="1778000" />
+      <workItem from="1674387707026" duration="2306000" />
+      <workItem from="1674410042926" duration="24000" />
     </task>
     <servers />
   </component>

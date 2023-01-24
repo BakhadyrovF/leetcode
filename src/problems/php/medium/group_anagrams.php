@@ -6,7 +6,8 @@
  * @link https://leetcode.com/problems/group-anagrams
  *
  * Approach:
- * Count numbers of letter for each word (use array with 26 zeros), 26 because there is only 26 six letters in english alphabet.
+ * Count numbers of letter for each word (use array with 26 zeros), 26 because there is only 26 six letters in english alphabet,
+ * and it will be sorted alphabetically, so it's guarantee that if words are anagram, we will not skip them.
  * After counting, convert that array to string separated with some symbol (doesn't matter).
  * (Without this symbol, we may have duplicate hashes for not anagrams).
  *

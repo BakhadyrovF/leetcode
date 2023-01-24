@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/find_the_index_of_the_first_occurence_in_a_string.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.add_two_numbers.php">
+  <component name="RunManager">
     <configuration name="add_two_numbers.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/add_two_numbers.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -200,7 +196,7 @@
       <workItem from="1674387707026" duration="2306000" />
       <workItem from="1674410042926" duration="24000" />
       <workItem from="1674466860333" duration="4278000" />
-      <workItem from="1674475470619" duration="1564000" />
+      <workItem from="1674475470619" duration="1827000" />
     </task>
     <servers />
   </component>

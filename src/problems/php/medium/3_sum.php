@@ -1,5 +1,18 @@
 <?php
 
+
+/**
+ * 3Sum
+ * @link https://leetcode.com/problems/3sum
+ *
+ * Approach:
+ * sort input array, take abs value of each negative element (it will be our target from sum of two elements)
+ * and search with two pointers like in Two Sum II problem,
+ * also skip duplicates with additional conditions.
+ *
+ * Time Complexity - O(n^2)
+ * Space Complexity - O(log n)
+ */
 class Solution {
 
     public function threeSum($nums) {

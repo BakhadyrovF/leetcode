@@ -1,38 +1,74 @@
 <?php
 
 
-
+/**
+ * House Robber 2
+ * @link https://leetcode.com/problems/house-robber-ii
+ *
+ * Top-Down Approach:
+ * We can use same solution as in House Robber 1.
+ * 1. Rob all houses except the last house.
+ * 2. Rob all houses except the first house.
+ * We can't rob first house and last house at the same time, because they are connected.
+ * 3. Return maximum from 1st and 2nd portions of houses.
+ *
+ * Time Complexity - O(n) + O(n) = O(n)
+ * Space Complexity - O(n) + O(n) = O(n)
+ */
 class Solution {
     private array $houses;
+    private array $dp = [];
+    private array $dp2 = [];
 
+    /**
+     * @param Integer[] $nums
+     * @return Integer
+     */
     public function rob($nums)
     {
         if (count($nums) === 1) {
             return $nums[0];
         }
 
-        if (count($nums) <= 3) {
-            return max($nums);
+        if (count($nums) === 2) {
+            return max($nums[0], $nums[1]);
         }
 
         $this->houses = $nums;
 
-        return max($this->robHouse(0, 0), $this->robHouse(1, 1));
+        $housesExceptLast = max($this->robHouseExceptLast(0), $this->robHouseExceptLast(1));
+        $housesExceptFirst = max($this->robHouseExceptFirst(1), $this->robHouseExceptFirst(2));
+
+        return max($housesExceptLast, $housesExceptFirst);
     }
 
-    protected function robHouse($house, $parentHouse)
+    public function robHouseExceptLast($house)
     {
-        if ($house === count($this->houses) - 1 && $parentHouse === 0) {
+        if (isset($this->dp[$house])) {
+            return $this->dp[$house];
+        }
+
+        if ($house >= count($this->houses) - 1) {
             return 0;
+        }
+
+        $this->dp[$house] = $this->houses[$house] + max($this->robHouseExceptLast($house + 2), $this->robHouseExceptLast($house + 3));
+
+        return $this->dp[$house];
+    }
+
+    public function robHouseExceptFirst($house)
+    {
+        if (isset($this->dp2[$house])) {
+            return $this->dp2[$house];
         }
 
         if ($house >= count($this->houses)) {
             return 0;
         }
 
-        return $this->houses[$house] + max($this->robHouse($house + 2, $parentHouse), $this->robHouse($house + 3, $parentHouse));
+        $this->dp2[$house] = $this->houses[$house] + max($this->robHouseExceptFirst($house + 2), $this->robHouseExceptFirst($house + 3));
+
+        return $this->dp2[$house];
     }
 }
-
-$solution = new Solution();
-echo $solution->rob([1, 2, 3, 4, 5, 1, 2, 3, 4, 5]);

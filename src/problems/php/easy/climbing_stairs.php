@@ -5,7 +5,7 @@
  * Climbing Stairs
  * @link https://leetcode.com/problems/climbing-stairs
  *
- * Approach:
+ * Top-Down Approach:
  * On each position (initially it's 0) we have 2 options:
  * 1. Climb 1 steps
  * 2. Climb 2 steps
@@ -27,12 +27,10 @@
 class Solution {
 
     private array $dp = [];
-    private int $top;
     public function climbStairs($n)
     {
-        $this->top = $n;
-        // start climbing from 0 (top-down approach)
-        return $this->climb(0);
+        // start climbing from n to down (top-down approach)
+        return $this->climb($n);
     }
 
     protected function climb($position)
@@ -41,18 +39,18 @@ class Solution {
             return $this->dp[$position];
         }
 
-        // jumped over of top
-        if ($position > $this->top) {
+        // jumped over
+        if ($position < 0) {
             return 0;
         }
 
         // we are exactly on the top
-        if ($position === $this->top) {
+        if ($position === 0) {
             return 1;
         }
 
         // compute distinct ways for the current position and store it (caching)
-        $this->dp[$position] = $this->climb($position + 1) + $this->climb($position + 2);
+        $this->dp[$position] = $this->climb($position - 1) + $this->climb($position - 2);
 
         return $this->dp[$position];
     }

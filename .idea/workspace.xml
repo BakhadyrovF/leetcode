@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/coin_change.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.3_sum.php">
     <configuration name="3_sum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/3_sum.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -233,7 +232,9 @@
       <workItem from="1674466860333" duration="4278000" />
       <workItem from="1674475470619" duration="1827000" />
       <workItem from="1674533597594" duration="7173000" />
-      <workItem from="1674642242054" duration="8046000" />
+      <workItem from="1674642242054" duration="8088000" />
+      <workItem from="1674721323971" duration="13000" />
+      <workItem from="1674731774234" duration="540000" />
     </task>
     <servers />
   </component>

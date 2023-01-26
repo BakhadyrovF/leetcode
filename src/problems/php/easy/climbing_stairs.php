@@ -44,7 +44,7 @@ class Solution {
             return 0;
         }
 
-        // we are exactly on the top
+        // we are exactly on the bottom
         if ($position === 0) {
             return 1;
         }

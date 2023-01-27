@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/longest_palindromic_substring.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/php/easy/climbing_stairs.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/php/easy/climbing_stairs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,8 @@
       <workItem from="1674533597594" duration="7173000" />
       <workItem from="1674642242054" duration="8088000" />
       <workItem from="1674721323971" duration="13000" />
-      <workItem from="1674731774234" duration="6173000" />
+      <workItem from="1674731774234" duration="6385000" />
+      <workItem from="1674802990030" duration="9000" />
     </task>
     <servers />
   </component>

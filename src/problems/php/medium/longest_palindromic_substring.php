@@ -9,7 +9,7 @@
  * 1. For each character compare it's left and right characters, if they are equal, sub-string is palindromic.
  * Approach above will work only for odd palindromic substrings (bab, cdc),
  * but it will not work for even palindromic sub-strings (bb, deed), so we have to use little different logic like described below.
- * 2. For each character check take it's right character and compare it with current one, if they are equal,
+ * 2. For each character take it's right character and compare it with current one, if they are equal,
  * sub-string is also palindromic.
  * So, for proper work of our algorithm, we have to combine both approaches above.
  * First check for odd sub-strings, and then check for even sub-strings.

@@ -2,7 +2,7 @@
 
 
 /**
- * Find All Anagrams In a String
+ * Find All Anagrams in a String
  * @link https://leetcode.com/problems/find-all-anagrams-in-a-string
  *
  * Approach:

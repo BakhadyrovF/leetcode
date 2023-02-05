@@ -12,7 +12,7 @@
  * we can change only first and last letter counter in constant time.
  * Compare each sub-string counter with given target string counter, if they are equal, push current index to the result array.
  *
- * Time Complexity - O(n^2) - we are comparing two arrays in each iteration.
+ * Time Complexity - O(n) - we are comparing two arrays in each iteration, but size of arrays is fixed(26).
  * Space Complexity - O(1) - we are not using any additional space except for result array.
  */
 class Solution {

@@ -22,32 +22,28 @@ class Solution {
 
     public function lengthOfLongestSubstring($s)
     {
-        if (strlen($s) === 0) {
-            return 0;
+        if (strlen($s) <= 1) {
+            return strlen($s);
         }
 
+        // sliding window pointers: left, i
+        $left = 0;
         $letterIndices = [];
-        $currentLength = 0;
-        $maxLength = 0;
-        $substringStartIndex = 0;
+        $max = 0;
 
         for ($i = 0; $i < strlen($s); $i++) {
-            if (isset($letterIndices[$s[$i]]) && $letterIndices[$s[$i]] >= $substringStartIndex) {
-                if ($currentLength > $maxLength) {
-                    $maxLength = $currentLength;
-                }
-
-                $currentLength -= $letterIndices[$s[$i]] - $substringStartIndex + 1;
-                $substringStartIndex = $letterIndices[$s[$i]] + 1;
+            if (isset($letterIndices[$s[$i]]) && $letterIndices[$s[$i]] >= $left) {
+                // calculate the length of a substring not including the current letter
+                $max = max($max, $i - $left);
+                $left = $letterIndices[$s[$i]] + 1;
+            } else {
+                // calculate the length of a substring including the current letter
+                $max = max($max, $i - $left + 1);
             }
+
             $letterIndices[$s[$i]] = $i;
-            $currentLength++;
         }
 
-        if ($currentLength > $maxLength) {
-            return $currentLength;
-        }
-
-        return $maxLength;
+        return $max;
     }
 }

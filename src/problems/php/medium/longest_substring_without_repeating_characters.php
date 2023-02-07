@@ -12,8 +12,8 @@
  *
  * Actually we can improve it to O(n) using Sliding Window technique:
  * Same as naive approach, start counting letter from the first letter and store index of each letter,
- * if duplicate occurs, just take index of early added letter and compute count of letter that stays before this duplicate,
- * and remove this computed number from current counter, because we can't use these letters anymore.
+ * if duplicate occurs, just take index of early added letter and compute length of substring and store it.
+ *
  *
  * Time Complexity - O(n)
  * Space Complexity - O(n)

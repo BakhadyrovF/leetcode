@@ -64,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.3_sum.php">
+  <component name="RunManager">
     <configuration name="3_sum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/3_sum.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -114,6 +114,14 @@
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="longest_substring_without_repeating_characters.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/longest_substring_without_repeating_characters.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -239,6 +247,7 @@
       <workItem from="1675592517140" duration="2127000" />
       <workItem from="1675597363805" duration="77000" />
       <workItem from="1675676660602" duration="2067000" />
+      <workItem from="1675750722624" duration="3365000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@
 
 
 /**
- * Substring of Size Three With Distinct Characters
+ * Substrings of Size Three With Distinct Characters
  * @link https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters
  *
  * Approach:

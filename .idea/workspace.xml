@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/php/easy/substring_of_size_three_with_distinct_characters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +153,7 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="substring_of_size_three_with_distinct_characters.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/substring_of_size_three_with_distinct_characters.php">
+    <configuration name="substrings_of_size_three_with_distinct_characters.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/substrings_of_size_three_with_distinct_characters.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -260,7 +257,7 @@
       <workItem from="1675676660602" duration="2067000" />
       <workItem from="1675750722624" duration="3365000" />
       <workItem from="1675769735756" duration="1326000" />
-      <workItem from="1675836483407" duration="2840000" />
+      <workItem from="1675836483407" duration="3209000" />
     </task>
     <servers />
   </component>

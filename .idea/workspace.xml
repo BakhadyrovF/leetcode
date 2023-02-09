@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/min_stack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.3_sum.php">
     <configuration name="3_sum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/3_sum.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -257,7 +260,8 @@
       <workItem from="1675676660602" duration="2067000" />
       <workItem from="1675750722624" duration="3365000" />
       <workItem from="1675769735756" duration="1326000" />
-      <workItem from="1675836483407" duration="3209000" />
+      <workItem from="1675836483407" duration="4855000" />
+      <workItem from="1675918966723" duration="2170000" />
     </task>
     <servers />
   </component>

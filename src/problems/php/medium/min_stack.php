@@ -8,7 +8,7 @@
  * Approach:
  * Each node of the stack holds minimum value.
  *
- * We can keep track of minimum value and before pushing element to second stack,
+ * We can keep track of minimum value before pushing element to second stack,
  * we check is current value less than our minimum that we took from deep, if it is,
  * then just push current value to the second stack, because when we are at the current level, minimum value is current value.
  * What values will be pushed later does not matter, because to reach this current level,

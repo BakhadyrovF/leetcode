@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/container_with_most_water.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.3_sum.php">
+  <component name="RunManager" selected="PHP Script.min_stack.php">
     <configuration name="3_sum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/3_sum.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -132,6 +133,14 @@
       <method v="2" />
     </configuration>
     <configuration name="merge_sorted_array.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/easy/merge_sorted_array.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="min_stack.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/min_stack.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -261,6 +270,8 @@
       <workItem from="1675769735756" duration="1326000" />
       <workItem from="1675836483407" duration="4855000" />
       <workItem from="1675918966723" duration="3635000" />
+      <workItem from="1676018511289" duration="2644000" />
+      <workItem from="1676116836707" duration="778000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,8 @@
  * 2. After this, jump to this optimal position and then repeat 1st step,
  * note that for the algorithm work linearly we start checking each element where we can jump,
  * from element that stays after the last element where we could jump from previous position.
+ * (All elements that we access early and that stays after the optimal one are not require to check,
+ * because they are stay after optimal one and still can't jump further)
  */
 class Solution {
 
@@ -44,4 +46,23 @@ class Solution {
 
         return true;
     }
+
+    /**
+     * Keep track of max index where we can jump,
+     * if current index is greater than max index, then we can't access the top.
+     */
+    public function canJumpReadable($nums) {
+        $maxJump = 0;
+
+        for ($i = 0; $i < count($nums); $i++) {
+            if ($maxJump < $i) {
+                return false;
+            }
+
+            $maxJump = max($maxJump, ($i + $nums[$i]));
+        }
+
+        return true;
+    }
 }
+

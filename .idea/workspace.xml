@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/jump_game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -269,7 +272,7 @@
       <workItem from="1675918966723" duration="3635000" />
       <workItem from="1676018511289" duration="2644000" />
       <workItem from="1676116836707" duration="1609000" />
-      <workItem from="1676273417402" duration="722000" />
+      <workItem from="1676273417402" duration="2925000" />
     </task>
     <servers />
   </component>

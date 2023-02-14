@@ -7,6 +7,7 @@
  *
  * Approach:
  * Use hash-map to store prefix sum till current index with its counter.
+ * In current index check is there deletable subarray with sum equals to (sum - k)
  *
  * Time Complexity - O(n)
  * Space Complexity - O(n)

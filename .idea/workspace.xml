@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="" />
+    <list default="true" id="d060915b-8c3d-4268-a27e-b6cbd007e054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/php/medium/lowest_common_ancestor_of_a_binary_tree.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,6 +277,10 @@
       <workItem from="1676363769107" duration="1403000" />
       <workItem from="1676444459279" duration="2397000" />
       <workItem from="1676554762685" duration="1122000" />
+      <workItem from="1676708760437" duration="1185000" />
+      <workItem from="1676803657356" duration="34000" />
+      <workItem from="1676871972499" duration="1321000" />
+      <workItem from="1676894442184" duration="110000" />
     </task>
     <servers />
   </component>

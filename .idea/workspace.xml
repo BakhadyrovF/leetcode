@@ -66,7 +66,7 @@
       <recent name="$PROJECT_DIR$/src/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.min_stack.php">
+  <component name="RunManager" selected="PHP Script.3_sum.php">
     <configuration name="3_sum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/3_sum.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -140,6 +140,14 @@
       <method v="2" />
     </configuration>
     <configuration name="min_stack.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/min_stack.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="pacific_atlantic_water_flow.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/problems/php/medium/pacific_atlantic_water_flow.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 8.1" />
@@ -287,6 +295,8 @@
       <workItem from="1677233081380" duration="1454000" />
       <workItem from="1677402734892" duration="2324000" />
       <workItem from="1677427773190" duration="6000" />
+      <workItem from="1677478102256" duration="6960000" />
+      <workItem from="1677579739389" duration="184000" />
     </task>
     <servers />
   </component>
